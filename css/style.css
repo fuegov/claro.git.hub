@@ -32,7 +32,7 @@ h6 {
 /*sintaxis para las clases en css es con punto (.)*/
 .container {
  justify-content: left;
-    width: 50 vw;
+    width: 50vw;
     left: 10vw;
     margin: auto;
     border-radius: 250px;
@@ -55,7 +55,7 @@ header {
     padding: 10px 0   10px  ;
 }
 header img {
-    width: 12em;
+    width: 12%;
     
     border-radius: 50%;
 }
@@ -66,13 +66,21 @@ header nav {
     margin-right: 12em;
 }
 header nav a {
-    color: rgb(11, 11, 11);
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 20em;
-    font-weight: bold;
+    color: rgb(133, 12, 12);
+background-color:  rgba(108, 108, 151, 0.6);
+    margin-left: 25vw;
+    margin-right: 1vw;
+    margin-bottom: 10px;
+    
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+    padding-top: 1.5vw;
+   
+    border: solid 3PX black;
+    border-radius: 7px;
   
-    align-items: center;
+   
    
 }
 header nav a:hover {
@@ -82,10 +90,7 @@ header nav a:hover {
 }
 /*home*/
 /*los identificadores (id) en el html, su sintaxis en css es el numeral (#) */
-#home {
-    
-    padding: 7cm 0 1cm;
-}
+
 #home h1 {
     margin-bottom: 40px;
     line-height: 1.2;
@@ -118,7 +123,7 @@ header nav a:hover {
     background-color: #f80b0b;
 }
 #home {
-    text-align: left;
+    text-align: center;
  
 }
 #home h1 {
@@ -243,6 +248,9 @@ border: solid 5px black;
 margin-right: 250%;
 left: 1%;
 align-items:center ;    
+}
+.anglages{
+    align-items: center;
 }
 
 
