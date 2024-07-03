@@ -15,8 +15,7 @@ h1 {
     color: rgb(245, 3, 3)
 }
 h3,
-h4 {
-    font-size: 1.8rem;
+h4 {  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-content: center;
     margin-right: 50%;
@@ -33,11 +32,9 @@ h6 {
 /*sintaxis para las clases en css es con punto (.)*/
 .container {
  justify-content: left;
-    width: 1rem;
-    left: 10px;
-    margin-left: 100rem;
-    margin-right: 0rem;
-    
+    width: 50 vw;
+    left: 10vw;
+    margin: auto;
     border-radius: 250px;
     box-sizing: content-box;
     border-bottom-left-radius: 12px 0 12px;
@@ -247,19 +244,7 @@ margin-right: 250%;
 left: 1%;
 align-items:center ;    
 }
-p{
-color: rgb(16, 8, 8);
-background-color: rgb(208, 191, 191);
-align-items: center;
 
-margin-left: 14rem;
-margin-right: 25em;
-border: solid 5px black;
-border-radius: 12%;
-padding-left: 10%;
-padding-top: 2%;
-padding-bottom: 2%;
-font-weight: bold;}
 
 
 .whatsaap{
@@ -302,4 +287,13 @@ h2{
     padding-right: 17rem;
     border-top: solid 7px red;  
     border: solid 7px rgb(5, 1, 1);  
+}
+main{
+    margin: auto;
+}
+
+p{
+    margin: auto;
+    color: rgb(6, 5, 5);
+    margin-left: 10vw;
 }
